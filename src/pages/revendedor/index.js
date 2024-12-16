@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Header } from "../../components/header";
 import { HeaderTitle } from "../../components/headerTitle";
 import { SectionSocial } from "../../components/sectionSocial";
@@ -7,7 +6,6 @@ import { getPrismicClient } from "../../service/prismic";
 import { SectionHeroReseller } from "../../components/reseller/sectionHeroReseller";
 import { ListCardsReseller } from "../../components/reseller/listCardsReseller";
 import { WhatsAppButton } from "../../components/whatsappButton";
-import { PageTitle } from "../../components/PageTitle";
 import Head from "next/head";
 
 export default function Revendedor({
