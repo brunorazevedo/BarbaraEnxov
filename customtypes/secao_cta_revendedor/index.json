@@ -1,0 +1,32 @@
+{
+  "format": "custom",
+  "id": "secao_cta_revendedor",
+  "label": "Seção CTA Revendedor",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "icone_cta_revendedor": {
+        "type": "Image",
+        "config": {
+          "label": "icone_cta_revendedor",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "titulo_secao_cta_revendedor": {
+        "type": "Text",
+        "config": {
+          "label": "Titulo Seção CTA Revendedor",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

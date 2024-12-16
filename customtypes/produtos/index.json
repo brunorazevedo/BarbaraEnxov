@@ -1,0 +1,80 @@
+{
+  "format": "page",
+  "id": "produtos",
+  "label": "Produtos",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      },
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "meta_keywords": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Keywords",
+          "placeholder": ""
+        }
+      },
+      "meta_og_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Og Title",
+          "placeholder": ""
+        }
+      },
+      "meta_og_url": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Og URL",
+          "placeholder": ""
+        }
+      },
+      "meta_og_site_name": {
+        "type": "Text",
+        "config": {
+          "label": "Meta OG Site Name",
+          "placeholder": ""
+        }
+      },
+      "meta_og_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Og Description",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

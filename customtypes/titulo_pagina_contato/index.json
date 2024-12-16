@@ -1,0 +1,18 @@
+{
+  "format": "custom",
+  "id": "titulo_pagina_contato",
+  "label": "Titulo Pagina Contato",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "titulo_pagina": {
+        "type": "Text",
+        "config": {
+          "label": "TItulo Pagina",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format": "custom",
+  "id": "secao_contato_duvidas",
+  "label": "Seção Contato Duvidas",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "titulo_da_secao": {
+        "type": "Text",
+        "config": {
+          "label": "Titulo da Seção ",
+          "placeholder": ""
+        }
+      },
+      "subtitulo_da_secao": {
+        "type": "Text",
+        "config": {
+          "label": "Subtitulo da Seção",
+          "placeholder": ""
+        }
+      },
+      "link_contato": {
+        "type": "Text",
+        "config": {
+          "label": "Link Contato",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

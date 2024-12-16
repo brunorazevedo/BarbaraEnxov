@@ -1,0 +1,175 @@
+{
+  "format": "page",
+  "id": "home",
+  "label": "Home",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Id Page",
+          "placeholder": ""
+        }
+      },
+      "titulo_slide": {
+        "type": "Text",
+        "config": {
+          "label": "Titulo Slide",
+          "placeholder": ""
+        }
+      },
+      "subtitulo_slide": {
+        "type": "Text",
+        "config": {
+          "label": "Subtitulo Slide",
+          "placeholder": ""
+        }
+      },
+      "nome_botao": {
+        "type": "Text",
+        "config": {
+          "label": "Nome Botao",
+          "placeholder": ""
+        }
+      },
+      "url_botao": {
+        "type": "Text",
+        "config": {
+          "label": "Url Botao",
+          "placeholder": ""
+        }
+      },
+      "titulo_listagem_produtos": {
+        "type": "Text",
+        "config": {
+          "label": "Titulo Listagem Produtos",
+          "placeholder": ""
+        }
+      },
+      "subtitulo_listagem_produtos": {
+        "type": "Text",
+        "config": {
+          "label": "Subtitulo Listagem Produtos",
+          "placeholder": ""
+        }
+      },
+      "imagem_slide1": {
+        "type": "Image",
+        "config": {
+          "label": "imagem_slide1",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "imagem_slide2": {
+        "type": "Image",
+        "config": {
+          "label": "imagem_slide2",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "imagem_slide3": {
+        "type": "Image",
+        "config": {
+          "label": "imagem_slide3",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "imagem_cta": {
+        "type": "Image",
+        "config": {
+          "label": "Imagem CTA",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "titulo_secao_cta_revendedor": {
+        "type": "Text",
+        "config": {
+          "label": "Titulo Seção CTA Revendedor",
+          "placeholder": ""
+        }
+      },
+      "titulo_pagina": {
+        "type": "Text",
+        "config": {
+          "label": "Titulo Pagina",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      },
+      "meta_keywords": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Keywords",
+          "placeholder": "Adicione o contéudo entre \" \""
+        }
+      },
+      "meta_og_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Og Title",
+          "placeholder": ""
+        }
+      },
+      "meta_og_url": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Og URL",
+          "placeholder": ""
+        }
+      },
+      "meta_og_site_name": {
+        "type": "Text",
+        "config": {
+          "label": "Meta OG Site Name",
+          "placeholder": ""
+        }
+      },
+      "meta_og_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Og Description",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

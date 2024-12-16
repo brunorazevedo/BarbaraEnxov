@@ -1,0 +1,337 @@
+{
+  "format": "custom",
+  "id": "produto",
+  "label": "Produto",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID",
+          "placeholder": ""
+        },
+        "type": "UID"
+      },
+      "slug": {
+        "type": "Text",
+        "config": {
+          "label": "Slug",
+          "placeholder": ""
+        }
+      },
+      "nome_do_produto": {
+        "type": "Text",
+        "config": {
+          "label": "Nome do Produto",
+          "placeholder": ""
+        }
+      },
+      "descricao_do_produto": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Descricão do Produto",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "imagem_galeria_1": {
+        "type": "Image",
+        "config": {
+          "label": "Imagem Galeria 1",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "imagem_galeria_2": {
+        "type": "Image",
+        "config": {
+          "label": "Imagem Galeria 2 ",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "imagem_galeria_3": {
+        "type": "Image",
+        "config": {
+          "label": "Imagem Galeria 3",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "imagem_galeria_4": {
+        "type": "Image",
+        "config": {
+          "label": "Imagem Galeria 4",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "imagem_galeria_5": {
+        "type": "Image",
+        "config": {
+          "label": "Imagem Galeria 5",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "link_contato": {
+        "type": "Text",
+        "config": {
+          "label": "Link Contato",
+          "placeholder": ""
+        }
+      }
+    },
+    "Especificação 1": {
+      "titulo_especificacao_1": {
+        "type": "Text",
+        "config": {
+          "label": "TItulo Especificação 1",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_1": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 1",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_2": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 2",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_3": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 3",
+          "placeholder": ""
+        }
+      }
+    },
+    "Especificação 2": {
+      "titulo_especificacao_2": {
+        "type": "Text",
+        "config": {
+          "label": "TItulo Especificação 2",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_2_1": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 2_1",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_2_2": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 2_2",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_2_3": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 2_3",
+          "placeholder": ""
+        }
+      }
+    },
+    "Especificação 3": {
+      "titulo_especificacao_3": {
+        "type": "Text",
+        "config": {
+          "label": "TItulo Especificação 3",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_3_1": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 3_1",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_3_2": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 3_2",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_3_3": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 3_3",
+          "placeholder": ""
+        }
+      }
+    },
+    "Especificação 4": {
+      "titulo_especificacao_4": {
+        "type": "Text",
+        "config": {
+          "label": "TItulo Especificação 4",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_4_1": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 4_1",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_4_2": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 4_2",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_4_3": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 4_3",
+          "placeholder": ""
+        }
+      }
+    },
+    "Especificação 5": {
+      "titulo_especificacao_5": {
+        "type": "Text",
+        "config": {
+          "label": "TItulo Especificação 5",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_5_1": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 5_1",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_5_2": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 5_2",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_5_3": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 5_3",
+          "placeholder": ""
+        }
+      }
+    },
+    "Especificação 6": {
+      "titulo_especificacao_6": {
+        "type": "Text",
+        "config": {
+          "label": "TItulo Especificação 6",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_6_1": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 6_1",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_6_2": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 6_2",
+          "placeholder": ""
+        }
+      },
+      "descricao_especificacao_6_3": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição Especificação 6_3",
+          "placeholder": ""
+        }
+      }
+    },
+    "Imagem Tamanho de Cama": {
+      "imagem_tamanho_camas": {
+        "type": "Image",
+        "config": {
+          "label": "Imagem Tamanho Camas",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    },
+    "SEO": {
+      "meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta_Title",
+          "placeholder": ""
+        }
+      },
+      "meta_keywords": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Keywords",
+          "placeholder": ""
+        }
+      },
+      "meta_image": {
+        "type": "Image",
+        "config": {
+          "label": "Meta Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": ""
+        }
+      },
+      "meta_og_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Og Title",
+          "placeholder": ""
+        }
+      },
+      "meta_og_url": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Og URL",
+          "placeholder": ""
+        }
+      },
+      "meta_og_site_name": {
+        "type": "Text",
+        "config": {
+          "label": "Meta OG Site Name",
+          "placeholder": ""
+        }
+      },
+      "meta_og_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Og Description",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "format": "custom",
+  "id": "rodape",
+  "label": "Rodapé",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "descricao": {
+        "type": "Text",
+        "config": {
+          "label": "Descrição",
+          "placeholder": ""
+        }
+      },
+      "rua": {
+        "type": "Text",
+        "config": {
+          "label": "Rua",
+          "placeholder": ""
+        }
+      },
+      "cep": {
+        "type": "Number",
+        "config": {
+          "label": "Cep",
+          "placeholder": ""
+        }
+      },
+      "cidade": {
+        "type": "Text",
+        "config": {
+          "label": "Cidade",
+          "placeholder": ""
+        }
+      },
+      "horario_seg_quinta": {
+        "type": "Text",
+        "config": {
+          "label": "Horário Seg a Quinta",
+          "placeholder": "Especifique o horário de funcionamento dia de segunda a quinta feira"
+        }
+      },
+      "horario_sextafeira": {
+        "type": "Text",
+        "config": {
+          "label": "Horário SextaFeira",
+          "placeholder": "Especifique o horário de funcionamento dia de sexta-feira"
+        }
+      },
+      "email": {
+        "type": "Text",
+        "config": {
+          "label": "Email",
+          "placeholder": ""
+        }
+      },
+      "contato_telefonico": {
+        "type": "Text",
+        "config": {
+          "label": "Contato Telefônico",
+          "placeholder": ""
+        }
+      },
+      "link_tel_whats": {
+        "type": "Text",
+        "config": {
+          "label": "Link Tel Whats",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

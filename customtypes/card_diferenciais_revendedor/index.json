@@ -1,0 +1,39 @@
+{
+  "format": "custom",
+  "id": "card_diferenciais_revendedor",
+  "label": "Card DIferenciais Revendedor",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "icone_imagem": {
+        "type": "Image",
+        "config": {
+          "label": "Icone Imagem",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "titulo_card_diferenciais": {
+        "type": "Text",
+        "config": {
+          "label": "Titulo Card Diferenciais",
+          "placeholder": ""
+        }
+      },
+      "subtitulo_card_diferenciais": {
+        "type": "Text",
+        "config": {
+          "label": "Subtitulo Card Diferenciais",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

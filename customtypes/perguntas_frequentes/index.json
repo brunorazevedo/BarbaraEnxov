@@ -1,0 +1,31 @@
+{
+  "format": "custom",
+  "id": "perguntas_frequentes",
+  "label": "Perguntas Frequentes",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "pergunta": {
+        "type": "Text",
+        "config": {
+          "label": "Pergunta",
+          "placeholder": ""
+        }
+      },
+      "resposta": {
+        "type": "Text",
+        "config": {
+          "label": "Resposta",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "format": "custom",
+  "id": "card_contato",
+  "label": "Card Contato",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "icone_card": {
+        "type": "Image",
+        "config": {
+          "label": "Icone Card",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "titulo_card": {
+        "type": "Text",
+        "config": {
+          "label": "Titulo Card",
+          "placeholder": ""
+        }
+      },
+      "subtitulo_card": {
+        "type": "Text",
+        "config": {
+          "label": "Subtitulo Card",
+          "placeholder": ""
+        }
+      },
+      "url_card": {
+        "type": "Text",
+        "config": {
+          "label": "Url Card",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

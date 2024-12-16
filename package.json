@@ -1,0 +1,35 @@
+{
+  "name": "barbaraenxovais",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@phosphor-icons/react": "^2.1.7",
+    "@prismicio/client": "^7.5.0",
+    "@prismicio/next": "^1.6.0",
+    "@prismicio/react": "^2.8.0",
+    "@stitches/react": "^1.2.8",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3",
+    "framer-motion": "^11.3.4",
+    "lucide": "^0.396.0",
+    "lucide-react": "^0.396.0",
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-icons": "^5.2.1",
+    "swiper": "^11.1.4"
+  },
+  "devDependencies": {
+    "@slicemachine/adapter-next": "^0.3.41",
+    "autoprefixer": "^10.4.19",
+    "slice-machine-ui": "^2.2.0"
+  }
+}
