@@ -3,7 +3,6 @@ import { ContentAbout } from "../../components/about/contentAbout";
 import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
 import { HeaderTitle } from "../../components/headerTitle";
-import { PageTitle } from "../../components/PageTitle";
 import { WhatsAppButton } from "../../components/whatsappButton";
 import { getPrismicClient } from "../../service/prismic";
 import { Container } from "../../styles/global";
